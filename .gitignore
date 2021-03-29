@@ -24,3 +24,6 @@ yarn-error.log*
 
 .editorconfig
 .parcel-cache/
+
+package-lock.json
+yarn.lock
