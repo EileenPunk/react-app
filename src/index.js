@@ -1,7 +1,13 @@
-import React from "react";
+import React from 'react';
 import ReactDOM from 'react-dom';
-import './sass/app.scss';
+import App from './App';
+import {BrowserRouter} from 'react-router-dom';
 
-const element = <h1>hello world</h1>
-
-ReactDOM.render(element, document.getElementById('root'));
+ReactDOM.render(
+    <React.StrictMode>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </React.StrictMode>,
+    document.getElementById('root')
+);
