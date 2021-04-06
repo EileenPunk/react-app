@@ -2,7 +2,7 @@ import React from "react";
 import './sass/app.scss';
 import Home from './components/home';
 import About from './components/about';
-import {Route, Link} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import Nav from './components/nav';
 
 function App() {
